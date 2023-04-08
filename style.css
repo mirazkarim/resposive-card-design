@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#all{
+    width: 90%;
+    margin: auto;
+}
+#all .container{
+    width: 100%;
+    height: auto;
+}
+#all .container .card{
+    display: flex;
+    gap: 20px;
+    margin: 50px;
+}
+#all .container .card .single-card{
+    border: 1.5px solid #111;
+    padding: 100px 30px;
+    background: yellow;
+    border-radius: 20px;
+    transition: 0.5s all ease;
+    
+}
+
+#all .container .card .single-card:hover{
+    background: rgb(255, 0, 128);
+    color: white;
+}
